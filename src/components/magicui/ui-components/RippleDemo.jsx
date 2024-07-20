@@ -1,7 +1,7 @@
 import React from "react";
 
 const RippleAnim = React.memo(function Ripple({
-  mainCircleSize = 150,
+  mainCircleSize = 200,
   mainCircleOpacity = 0.5,
   numCircles = 1000,
 }) {

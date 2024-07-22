@@ -11,6 +11,7 @@
   font-family: "Familjen Grotesk", sans-serif;
   font-size: clamp(14px, 1vw, 16px);
   scroll-behavior: smooth;
+  transition: all ease-in;
 }
 
 

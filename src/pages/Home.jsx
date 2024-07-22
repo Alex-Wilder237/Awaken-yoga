@@ -6,14 +6,9 @@ import YinModal from "../components/modal/Yin";
 import VinyasaaModal from "../components/modal/Vinyasa";
 import HathaModal from "../components/modal/Hatha";
 import ImageSkeleton from "../components/image/Image";
-import WordRotateDemo  from "../components/magicui/WordRotate";
 import FlipTextDemoDemo  from "../components/magicui/Flip-text";
 import MarqueeDemo from "../components/magicui/Reviews";
 import Shimmer from "../components/magicui/Shimmer";
-
-
-
-
 
 const Home = () => {
   return (
@@ -61,9 +56,9 @@ const Home = () => {
       </section>
 
       {/* section two-about-page */}
-      <section className="h-fit w-full mt-8 mb-28 md:my-[100px] rounded-3xl">
-        <div className="md:grid grid-cols-2 justify-center items-start md:space-x-4">
-          <div className="col-span-1 flex text-center h-full justify-between md:text-left flex-col max-md:py-8 px-2">
+      <section id="a-propos" className="h-fit w-full mt-8 mb-[100px] md:my-[200px] rounded-3xl">
+        <div className="md:grid grid-cols-2 justify-center items-start md:space-x-10">
+          <div className="col-span-1 flex text-center h-full md:text-left flex-col max-md:py-8 px-2">
             <div>
             <div className="flex max-md:justify-center items-center lg:mb-8">
               <div className="w-fit flex gap-3 items-center bg-pink-200 px-8 py-4  rounded-full animate__animated animate__fadeInLeft">
@@ -83,27 +78,22 @@ const Home = () => {
                   alt="Aerial yoga experience"
                 />
                 <h1 className=" text-[10px] lg:text-lg max-lg:hidden">
-                  Yoga studio in Douala
+                  Studio de yoga à Douala
                 </h1>
               </div>
             </div>
-            <h1 className="lg:text-6xl text-4xl font-bold mb-8">
-              Transforming Your <br />{" "}
-              <span className="lg:text-6xl  text-4xl gradient-text font-bold ">
-                Body, Mind, and Spirit{" "}
+            <h1 className="lg:text-7xl text-4xl font-bold mb-8">
+              Transformez Votre <br />{" "}
+              <span className="lg:text-7xl  text-4xl gradient-text font-bold ">
+                Corps, Esprit et Âme{" "}
               </span>
             </h1>
             <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem]">
-              At Awaken Yoga Studio, we believe in the power of yoga to heal and
-              transform. Located in the vibrant city of Douala, our studio
-              offers a peaceful sanctuary where you can escape the hustle and
-              bustle of everyday life. Our mission is to provide a supportive
-              and inclusive environment for everyone, regardless of age or
-              fitness level.
+              Chez Awaken Yoga Studio, nous croyons au pouvoir du yoga pour guérir et transformer. Situé dans la ville dynamique de Douala, notre studio offre un sanctuaire paisible où vous pouvez échapper à l'agitation de la vie quotidienne. Notre mission est de fournir un environnement de soutien et inclusif pour tous, quel que soit l'âge ou le niveau de condition physique.
             </p>
             </div>
             <div>
-  <Shimmer url={"/"} title={"Button"} />
+  <Shimmer url={"/"} title={"Rejoignez Maintenant"} />
 </div>
           </div>
           <div className="col-span-1 overflow-hidden bg-cover object-cover h-fit">
@@ -118,24 +108,19 @@ const Home = () => {
       </section>
 
       {/* section three-service-page */}
-      <section className="pt-[100px]">
-        <div className="md:grid grid-cols-2 md:space-x-4">
+      <section id="service" className="my-[100px]">
+        <div className="md:grid grid-cols-2 md:space-x-10">
           <div className="col-span-1">
-            <h1 className="lg:text-6xl lg:hidden leading-[2.8rem] text-4xl font-bold max-md:mb-8 text-center md:text-left">
-            Experience the
-              <span className="dark:text-white  lg:text-5xl text-3xl w-fit font-medium px-8 py-2 bg-pink-200 text-blue-500 rounded-full">Benefits</span>
-              of yoga and enhanced mental clarity.
+            <h1 className="lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
+            Découvrez les
+              <span className="dark:text-white  lg:text-[2.8rem] text-3xl w-fit font-medium px-8 py-2 bg-pink-200 text-blue-500 rounded-full">Bienfaits</span>
+              du yoga et une clarté mentale améliorée.
             </h1>
-            <div className=" flex gap-2 flex-wrap max-lg:hidden">
-              
-             <div className="lg:text-6xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-8 text-center md:text-left">Experience the</div>
-             <div><WordRotateDemo classStyle={"dark:text-white lg:text-5xl text-3xl w-fit font-medium px-8 py-2 bg-pink-200 text-blue-500 rounded-full"} words={["Benefits" , "Goodness"]} /></div>
-               <div className="lg:text-6xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-8 text-center md:text-left">of yoga and enhanced mental clarity.</div>
-            </div>
+
           </div>
           <div className="col-span-1">
             <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem]">
-              Our offerings include{" "}
+              Nos offres incluent{" "}
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Hatha Yoga
               </span>
@@ -143,18 +128,15 @@ const Home = () => {
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Vinyasa Flow
               </span>
-              , and{" "}
+              , et{" "}
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Yin Yoga
               </span>{" "}
-              among others. Each class designed to meet your
-              needs. Whether you’re a beginner or an experienced yoga
+              entre autres. Chaque cours est conçu pour répondre à vos besoins. Que vous soyez débutant ou pratiquant de yoga expérimenté
             </p>
 <div>
-  <Shimmer url={"/"} title={"Join Now"} />
+  <Shimmer url={"/"} title={"Reserve un rendez-vous"} />
 </div>
-
-
           </div>
         </div>
 
@@ -170,16 +152,17 @@ const Home = () => {
         <Scrollmarquee />
       </section>
 
+
       {/* section four-booking-yoga */}
-      <section className="h-fit px-2 py-4 md:p-10 rounded-3xl bg-violet-300 my-20 md:my-[100px] ">
-        <div className="md:grid grid-cols-2 md:space-x-8 items-center justify-between">
+      <section  className="h-fit px-4 py-4 md:p-20 rounded-3xl bg-violet-300 my-[100px] ">
+        <div className="md:grid grid-cols-2 md:space-x-10 items-center justify-between">
           <div className="col-span-1 flex flex-col h-full justify-between">
-            <h1 className="lg:text-6xl text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-center md:text-left">
-              Join our diverse range of yoga{" "}
-              <span className="lg:text-5xl text-3xl font-medium lg:leading-relaxed px-8 py-0 bg-green-200 text-blue-500 rounded-full ">
-                classes
+            <h1 className="lg:text-[3.2rem] leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-left">
+              Rejoignez notre large gamme de{" "}
+              <span className="lg:text-[2.8rem] text-3xl font-medium  px-8 py-0 bg-green-200 text-blue-500 rounded-full ">
+                cours
               </span>{" "}
-              designed to meet your needs
+              de yoga conçus pour répondre à vos besoins
             </h1>
             
             <div className="grid grid-cols-2  items-start justify-around mt-8">
@@ -204,10 +187,10 @@ const Home = () => {
       </section>
 
       {/* marquee testtimonials */}
-      <section className="h-fit">
+      <section id="testimonials" className="h-fit my-[150px]">
         <div>
-          <div className="mb-8 ">
-          <h1 className="lg:text-6xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-2 text-center ">Testimonials</h1>
+          <div className="mb-20 ">
+          <h1 className="lg:text-5xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-2 text-center ">Témoignages</h1>
           <p className="text-lg lg:text-2xl text-center ">Voici nos retours clients</p>
           </div>
           <div>
@@ -217,13 +200,13 @@ const Home = () => {
       </section>
 
       {/* section five-features */}
-      <section className="my-[100px]  flex justify-center items-center md:pl-10 h-fit md:h-[20vh] lg:h-[50vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
+      <section className="my-[150px]  flex justify-center items-center pl-4 md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
 <div className="md:grid grid-cols-2  justify-center items-center">
 <div className="col-span-1 px-2 py-8">
-<h1 className="lg:text-6xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-8 text-center md:text-left">
-            Experience the 
-               <span className="dark:text-white mx-2 lg:text-5xl text-3xl w-fit font-medium px-8 py-2 bg-pink-200 text-blue-500 rounded-full">Benefits</span>
-               of yoga and enhanced mental clarity.
+<h1 className="lg:text-[3.2rem] leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
+Transformez 
+               <span className="dark:text-white mx-2 lg:text-[2.8rem] text-3xl w-fit font-medium px-8 py-2 bg-yellow-200 text-pink-500 rounded-full">votre  vie</span>
+               avec le yoga et découvrez une sérénité intérieure inégalée.
             </h1>
 </div>
 

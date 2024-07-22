@@ -49,7 +49,7 @@ const Footer = () => {
 
 
   return (
-    <div className='h-[auto] md:h-screen bg-violet-300 rounded-t-3xl py-[100px] md:px-[50px] px-8'>
+    <div id='contact' className='h-[auto] md:h-screen bg-violet-300 rounded-t-3xl py-[100px] md:px-[50px] px-8'>
       <div className='md:grid grid-cols-2 md:space-x-3 '>
 <div className="col-span-1 flex flex-col gap-10 mb-8">
   <div>
@@ -57,20 +57,19 @@ const Footer = () => {
   </div>
   <div>
   <p className="text-lg lg:text-2xl text-center md:text-justify  lg:leading-[2.5rem] md:w-[80%]">
-              Our offerings include among others. Each class designed to meet your
-              needs. Whether you’re a beginner or an experienced yoga
+  N'hésitez pas à nous contacter pour toute question ou pour commencer votre voyage vers le bien-être avec le yoga. Nous sommes là pour vous aider 
             </p>
   </div>
   
  <div className='flex flex-row'>
   <a className='' href="/">
-    <img className='flex p-4 bg-white rounded-full object-cover w-[100px] lg:w-[5vw]' src="./assets/facebook.png" alt="facebook"/>
+    <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/facebook.png" alt="facebook"/>
   </a>
   <a className='' href="/">
-    <img className='flex p-4 bg-white rounded-full object-cover w-[100px] lg:w-[5vw]' src="./assets/whatsapp.png" alt="facebook"/>
+    <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/whatsapp.png" alt="facebook"/>
   </a>
-  <p className='text-lg flex lg:text-2xl font-bold justify-center items-center px-8 py-4 bg-white rounded-full'>
- 656567124
+  <p className='text-lg flex lg:text-2xl font-medium justify-center items-center px-8 py-4 bg-white rounded-full'>
+ +237 656 567 124
   </p>
  </div>
 

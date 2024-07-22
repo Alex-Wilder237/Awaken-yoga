@@ -4,7 +4,6 @@ import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDis
 export default function YinModal() {
   const {isOpen, onOpen,  onOpenChange} = useDisclosure();
 
-
   return (
     <>
       <div className="flex flex-wrap gap-3">
@@ -42,46 +41,66 @@ export default function YinModal() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold text-white px-10 py-4 m-4 bg-violet rounded-3xl bg-violet-200 ">Modal Title</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold">Découvrez le Yin Yoga :</ModalHeader>
               <ModalBody>
+                <div>
+                  <h2 className="font-bold">Qu'est-ce que le Yin Yoga ?</h2>
                 <p> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                Le Yin Yoga est une forme douce et méditative de yoga qui se concentre sur des étirements profonds et prolongés des tissus conjonctifs du corps. Il vise à améliorer la flexibilité et à ouvrir les articulations tout en apaisant l'esprit.
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
+                </div>
+                <div>
+                  <h2 className="font-bold">À Qui S'adresse le Yin Yoga ?</h2>
+                  <h4>Le Yin Yoga est idéal pour :</h4> 
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Personnes Cherchant à se Détendre :
+                    </h2>
+                    <span>Le Yin Yoga est parfait pour ceux qui souhaitent réduire le stress et trouver un moment de calme grâce à des postures maintenues longtemps et une respiration consciente.
+                    </span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Personnes avec des Tensions Corporelles :
+                    </h2>
+                    <span>Si vous souffrez de tensions musculaires ou de douleurs articulaires, le Yin Yoga peut aider à relâcher les tensions profondes et à améliorer la mobilité.
+                    </span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Débutants :
+                    </h2>
+                    <span>Le Yin Yoga est accessible aux débutants, offrant une introduction douce aux postures de yoga et à la méditation.
+                    </span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Pratiquants de Yoga Avancés :
+                    </h2>
+                    <span>Ceux qui ont une pratique de yoga plus avancée peuvent trouver dans le Yin Yoga un complément parfait pour équilibrer les aspects dynamiques de leur pratique.
+                    </span>
+                    </div>
+</div>
+                <div>
+                  <h2 className="font-bold">Les Bienfaits du Yin Yoga au Quotidien</h2>
+                  <p>1. <span className="font-bold">Amélioration de la Flexibilité</span> : Les postures maintenues longtemps étirent les tissus conjonctifs, augmentant ainsi la flexibilité.
+                  </p>
+                  <p>2. <span className="font-bold">Réduction du Stress</span> : Le Yin Yoga calme le système nerveux et aide à réduire le stress et l'anxiété.
+                  </p>
+                  <p>3. <span className="font-bold">Amélioration de la Circulation</span> : Les étirements profonds favorisent la circulation sanguine et l'énergie vitale dans le corps.
+                  </p>
+                  <p>4. <span className="font-bold">Équilibre et Relaxation</span> : Le Yin Yoga équilibre l'énergie du corps et de l'esprit, offrant une relaxation profonde.
+                  </p>
+                  <p>5. <span className="font-bold">Méditation et Présence</span> : La pratique du Yin Yoga favorise la méditation et la pleine conscience, aidant à mieux gérer les pensées et les émotions.
+                  </p>
+                </div>
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
-                  Close
+                  Décliner
                 </Button>
                 <Button color="primary" onPress={onClose}>
-                  S'inscris au programme
+                Rejoignez-Nous pour une Séance de Yin Yoga
                 </Button>
               </ModalFooter>
             </>

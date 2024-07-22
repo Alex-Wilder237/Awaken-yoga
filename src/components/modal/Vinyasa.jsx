@@ -42,46 +42,52 @@ export default function VinyasaModal() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold text-white px-10 py-4 m-4 bg-violet rounded-3xl bg-violet-200 ">Modal Title</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold">Découvrez le Vinyasa Yoga :</ModalHeader>
               <ModalBody>
+                <div>
+                  <h2 className="font-bold">Qu'est-ce que le Vinyasa Yoga ?</h2>
                 <p> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                Le Vinyasa Yoga est une forme dynamique de yoga qui relie chaque mouvement à une respiration spécifique. Souvent appelé "flow yoga", il se caractérise par des enchaînements fluides de postures qui créent une méditation en mouvement, favorisant ainsi une harmonisation du corps et de l'esprit.
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
+                </div>
+                <div>
+                  <h2 className="font-bold">À Qui S'adresse le Vinyasa Yoga ?</h2>
+                  <h4>Le Vinyasa Yoga est idéal pour :</h4> 
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Débutants :
+                    </h2>
+                    <span>Si vous êtes nouveau dans le monde du yoga, le Vinyasa vous permet de vous familiariser avec les postures de base tout en améliorant votre flexibilité et votre endurance.
+                    </span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Sportifs :
+                    </h2>
+                    <span>Les athlètes et les amateurs de fitness bénéficient de l'intégration du Vinyasa dans leur routine pour améliorer leur force, leur souplesse et leur équilibre.</span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Personnes Stressées :
+                    </h2>
+                    <span>Le rythme dynamique et la concentration sur la respiration aident à réduire le stress et à promouvoir la détente.</span>
+                    </div>
+                  <div>
+                    <h2 className="font-bold mt-4">
+                    Les Débutants :
+                    </h2>
+                    <span>Si vous êtes nouveau dans le monde du yoga, le Vinyasa vous permet de vous familiariser avec les postures de base tout en améliorant votre flexibilité et votre endurance.
+                    </span>
+                    </div>
+</div>
+               
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
-                  Close
+                  Decliner
                 </Button>
                 <Button color="primary" onPress={onClose}>
-                  S'inscris au programme
+                Rejoignez-Nous pour une Séance de Vinyasa Yoga
                 </Button>
               </ModalFooter>
             </>

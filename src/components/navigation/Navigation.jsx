@@ -14,16 +14,17 @@ const Navigation = () => {
     },
     {
       linkName: "À Propos",
-      linkUrl: "/a-propos",
+      linkUrl: "#a-propos",
     },
     {
       linkName: "Service",
-      linkUrl: "/Service",
+      linkUrl: "#service",
     },
     {
-      linkName: "Contact",
-      linkUrl: "/contact",
+      linkName: "Testimonials",
+      linkUrl: "#testimonials",
     },
+
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -74,19 +75,19 @@ const Navigation = () => {
       </a>
 
       {/* Desktop Navigation Links */}
-      <ul className="flex gap-5 max-sm:hidden items-center bg-[#F0F0F0] px-8 py-4  rounded-full animate__animated animate__fadeInUp">
+      <ul className="flex gap-5 max-sm:hidden items-center bg-white px-8 py-4  rounded-full animate__animated animate__fadeInUp">
         {navLinks.map((link, index) => (
           <li key={index} className="p-2">
-            <NavLink
-              to={link.linkUrl}
+            <a
+              href={link.linkUrl}
               className={
                 location.pathname === link.linkUrl
-                  ? " text-blue-600 pb-2 font-semibold text-sm"
-                  : " text-sm"
+                  ? " text-blue-600 pb-2 font-bold text-sm uppercase"
+                  : " text-sm uppercase"
               }
             >
               {link.linkName}
-            </NavLink>
+            </a>
           </li>
         ))}
       </ul>

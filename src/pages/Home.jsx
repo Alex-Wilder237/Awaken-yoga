@@ -205,7 +205,7 @@ const Home = () => {
 <div className="col-span-1 px-2 py-8">
 <h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
 Transformez 
-               <span className="dark:text-white mx-2 lg:text-[2.8rem] text-3xl w-fit font-medium px-8 py-2 md:bg-yellow-200 md:text-pink-500 md:rounded-full">votre  vie</span>
+               <span className="dark:text-white mx-2 lg:text-[2.8rem] text-[3.2rem] w-fit font-bold md:font-medium md:px-8 md:py-2 md:bg-yellow-200 text-white max-sm:underline max-sm:underline-offset-4 md:text-pink-500 md:rounded-full">votre  vie</span>
                avec le yoga et découvrez une sérénité intérieure inégalée.
             </h1>
 </div>

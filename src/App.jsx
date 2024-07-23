@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import './styles/App.css';
 import RippleLoading from './components/magicui/RippleLoading';
 import Footer from './components/footer/Footer';
+import ScrollToTopButton from './components/return/ReturnButton';
 
 
 
@@ -16,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 10000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -33,11 +34,10 @@ const App = () => {
       <div className='lg:mx-6 mx-2 2xl:mx-[15%]'>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/a-propos" element={<Apropos />} />
-        <Route path="/mes-cours" element={<MesCours />} /> */}
       </Routes>
     </div>
     <Footer />
+    <ScrollToTopButton/>
     </Router>
   );
 };

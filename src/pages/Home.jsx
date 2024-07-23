@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       {/* section one-hero-page */}
-      <section className="flex flex-col justify-center items-center h-[auto] ">
+      <section id="home" className="flex flex-col justify-center items-center h-[auto] ">
         {/* section hero */}
         <div className="px-4 py-0 lg:px-[5%] flex  w-full rounded-3xl h-fit  overflow-hidden  bg-gradient-to-br from-pink-100  to-violet-400 mt-[20%] lg:mt-[1%]">
           <div class="flex items-center justify-center w-full h-[50vh] lg:h-[96vh]">
@@ -157,7 +157,7 @@ const Home = () => {
       <section  className="h-fit px-4 py-4 md:p-20 rounded-3xl bg-violet-300 my-[100px] ">
         <div className="md:grid grid-cols-2 md:space-x-10 items-center justify-between">
           <div className="col-span-1 flex flex-col h-full justify-between">
-            <h1 className="lg:text-[3.2rem] leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-left">
+            <h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-left">
               Rejoignez notre large gamme de{" "}
               <span className="lg:text-[2.8rem] text-3xl font-medium  px-8 py-0 bg-green-200 text-blue-500 rounded-full ">
                 cours
@@ -200,10 +200,10 @@ const Home = () => {
       </section>
 
       {/* section five-features */}
-      <section className="my-[150px]  flex justify-center items-center pl-4 md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
+      <section className="md:my-[150px] my-[80px] flex justify-center items-center pl-4 md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
 <div className="md:grid grid-cols-2  justify-center items-center">
 <div className="col-span-1 px-2 py-8">
-<h1 className="lg:text-[3.2rem] leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
+<h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
 Transformez 
                <span className="dark:text-white mx-2 lg:text-[2.8rem] text-3xl w-fit font-medium px-8 py-2 bg-yellow-200 text-pink-500 rounded-full">votre  vie</span>
                avec le yoga et découvrez une sérénité intérieure inégalée.

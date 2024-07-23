@@ -37,11 +37,11 @@ const Home = () => {
                     alt="awaken yoga studio"
                   />
                 </div>
-                <div class="w-fit h-fit bg-green-200 rounded-full px-4 py-2 mt-[20%] lg:mt-[20%]">
+                <a href="https://wa.me/qr/7FQWSAE44PB3O1" class="w-fit h-fit bg-green-200 rounded-full px-4 py-2 mt-[20%] lg:mt-[20%]">
                   <h1 className="text-lg font-bold text-blue-500">
-                    Inscris Toi!
+                 En savoir plus
                   </h1>
-                </div>
+                </a>
                 <div class="w-fit h-fit mt-[28%] ml-[8%] ">
                   <img
                     className="lg:w-[30vh] w-[20vw] "

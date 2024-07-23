@@ -1,6 +1,5 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/navigation/Navigation';
 import Home from './pages/Home';
 import './styles/App.css';
@@ -29,16 +28,14 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <>
       <Navigation />
       <div className='lg:mx-6 mx-2 2xl:mx-[15%]'>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+<Home />
     </div>
     <Footer />
     <ScrollToTopButton/>
-    </Router>
+    </>
   );
 };
 

@@ -111,12 +111,13 @@ const Home = () => {
       <section id="service" className="my-[100px]">
         <div className="md:grid grid-cols-2 md:space-x-10">
           <div className="col-span-1">
+          <h1 className="mb-4 dark:text-white  lg:text-[1.5rem] text-3xl w-fit font-medium px-8 py-4 bg-green-100 text-gray-400 rounded-full">Nos service</h1>
             <h1 className="lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
             Découvrez les
-              <span className="dark:text-white  lg:text-[2.8rem] text-3xl w-fit font-medium px-8 py-2 bg-pink-200 text-blue-500 rounded-full">Bienfaits</span>
+              <span className="dark:text-white  lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-medium mx-2 text-blue-500 ">Bienfaits</span>
               du yoga et une clarté mentale améliorée.
             </h1>
-
+            
           </div>
           <div className="col-span-1">
             <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem]">
@@ -157,6 +158,8 @@ const Home = () => {
       <section  className="h-fit px-4 py-4 md:p-20 rounded-3xl bg-violet-300 my-[100px] ">
         <div className="md:grid grid-cols-2 md:space-x-10 items-center justify-between">
           <div className="col-span-1 flex flex-col h-full justify-between">
+          <h1 className="mb-4 dark:text-white  lg:text-[1.5rem] text-3xl w-fit font-medium px-8 py-2 bg-blue-100 text-gray-400 rounded-full">Nos Cours</h1>
+            
             <h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-left">
               Rejoignez notre large gamme de{" "}
               <span className="lg:text-[2.8rem] text-3xl font-medium  px-8 py-0 bg-green-200 text-blue-500 rounded-full ">

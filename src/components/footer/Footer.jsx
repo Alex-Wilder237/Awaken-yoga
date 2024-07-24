@@ -20,7 +20,7 @@ const Footer = () => {
 
     try {
       // Envoyer les données du formulaire à Formspree
-      await axios.post('https://formspree.io/f/mjjqzz', formData);
+      await axios.post('https://formspree.io/f/xrbzeovk', formData);
 
       // Afficher le message de remerciement
       setShowThankYou(true);
@@ -60,14 +60,14 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-row max-sm:justify-center'>
-            <a className='' href="/">
+            <a className='' href="https://www.facebook.com/profile.php?id=61557884797345">
               <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/facebook.png" alt="facebook"/>
             </a>
-            <a className='' href="/">
+            <a className='' href="https://wa.me/qr/7FQWSAE44PB3O1">
               <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/whatsapp.png" alt="whatsapp"/>
             </a>
             <p className='text-lg flex lg:text-2xl font-medium justify-center items-center px-8 py-4 bg-white rounded-full'>
-              +237 656 567 124
+            655305746 / 682342642
             </p>
           </div>
         </div>

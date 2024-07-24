@@ -37,11 +37,11 @@ const Home = () => {
                     alt="awaken yoga studio"
                   />
                 </div>
-                <a href="https://wa.me/qr/7FQWSAE44PB3O1" class="w-fit h-fit bg-green-200 rounded-full px-4 py-2 mt-[20%] lg:mt-[20%]">
+                <div class="w-fit h-fit bg-green-200 rounded-full px-4 py-2 mt-[20%] lg:mt-[20%]">
                   <h1 className="text-lg font-bold text-blue-500">
-                 En savoir plus
+                 Studio yoga de Douala
                   </h1>
-                </a>
+                </div>
                 <div class="w-fit h-fit mt-[28%] ml-[8%] ">
                   <img
                     className="lg:w-[30vh] w-[20vw] "
@@ -93,7 +93,7 @@ const Home = () => {
             </p>
             </div>
             <div>
-  <Shimmer url={"/"} title={"Rejoignez Maintenant"} />
+  <Shimmer url={"http://calendly.com/donalddestin11"} title={"Rejoignez Maintenant"} />
 </div>
           </div>
           <div className="col-span-1 overflow-hidden bg-cover object-cover h-fit">
@@ -110,9 +110,9 @@ const Home = () => {
       {/* section three-service-page */}
       <section id="service" className="my-[100px]">
         <div className="md:grid grid-cols-2 md:space-x-10">
-          <div className="col-span-1">
-          <h1 className="mb-4 dark:text-white  lg:text-[1.5rem] text-3xl w-fit font-medium px-8 py-4 bg-green-100 text-gray-400 rounded-full">Nos service</h1>
-            <h1 className="lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
+          <div className="col-span-1 flex flex-col justify-center">
+          <h1 className="md:mb-4 mb-2 dark:text-white mx-auto md:mx-0 lg:text-[1.5rem] md:text-3xl text-lg w-fit font-medium px-8 py-4 bg-green-100 text-gray-400 rounded-full">Nos service</h1>
+            <h1 className="lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 md:text-left text-center">
             Découvrez les
               <span className="dark:text-white  lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-medium mx-2 text-blue-500 ">Bienfaits</span>
               du yoga et une clarté mentale améliorée.
@@ -136,7 +136,7 @@ const Home = () => {
               entre autres. Chaque cours est conçu pour répondre à vos besoins. Que vous soyez débutant ou pratiquant de yoga expérimenté
             </p>
 <div>
-  <Shimmer url={"/"} title={"Reserve un rendez-vous"} />
+  <Shimmer url={"https://wa.me/message/LAUXD72C7TTHC1"} title={"En savoir plus"} />
 </div>
           </div>
         </div>
@@ -158,9 +158,7 @@ const Home = () => {
       <section  className="h-fit px-4 py-4 md:p-20 rounded-3xl bg-violet-300 my-[100px] ">
         <div className="md:grid grid-cols-2 md:space-x-10 items-center justify-between">
           <div className="col-span-1 flex flex-col h-full justify-between">
-          <h1 className="mb-4 dark:text-white  lg:text-[1.5rem] text-3xl w-fit font-medium px-8 py-2 bg-blue-100 text-gray-400 rounded-full">Nos Cours</h1>
-            
-            <h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 text-left">
+            <h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mt-4 mb-10 md:mb-10 md:text-left text-center">
               Rejoignez notre large gamme de{" "}
               <span className="lg:text-[2.8rem] text-3xl font-medium  px-8 py-0 bg-green-200 text-blue-500 rounded-full ">
                 cours
@@ -203,14 +201,17 @@ const Home = () => {
       </section>
 
       {/* section five-features */}
-      <section className="md:my-[150px] my-[80px] flex justify-center items-center pl-4 md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
-<div className="md:grid grid-cols-2  justify-center items-center">
+      <section className="md:my-[150px] mb-[80px] flex justify-center items-center  md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
+<div className="md:grid grid-cols-2 flex flex-col  justify-center items-center">
 <div className="col-span-1 px-2 py-8">
-<h1 className="lg:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 text-left">
+<h1 className="md:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 md:text-left text-center">
 Transformez 
-               <span className="dark:text-white mx-2 lg:text-[2.8rem] text-[3.2rem] w-fit font-bold md:font-medium md:px-8 md:py-2 md:bg-yellow-200 text-white max-sm:underline max-sm:underline-offset-4 md:text-pink-500 md:rounded-full">votre  vie</span>
+               <span className="dark:text-white mx-2 text-[2.8rem]  w-fit font-bold md:font-medium md:px-8 md:py-2 md:bg-yellow-200 text-white max-sm:underline  md:text-pink-500 md:rounded-full">votre  vie</span>
                avec le yoga et découvrez une sérénité intérieure inégalée.
             </h1>
+                        <div>
+  <Shimmer url={"http://calendly.com/donalddestin11"} title={"Reservez une séance"} />
+</div>
 </div>
 
 <div className="col-span-1 flex justify-end">

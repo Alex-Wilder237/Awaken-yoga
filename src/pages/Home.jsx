@@ -121,19 +121,23 @@ const Home = () => {
           </div>
           <div className="col-span-1">
             <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem]">
-              Nos offres incluent{" "}
+            Bienvenue à Awaken Yoga Studio, je suis <span className="font-bold text-lg lg:text-2xl">FOKO DONALD DESTIN</span> votre instructeur principal chez awaken, votre oasis de sérénité dans la ville de Douala. nos cours incluent{" "}
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Hatha Yoga
               </span>
               ,
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
-                Vinyasa Flow
+                Vinyasa Yoga
+              </span>
+              ,
+              <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
+              Kundalini yoga
               </span>
               , et{" "}
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Yin Yoga
               </span>{" "}
-              entre autres. Chaque cours est conçu pour répondre à vos besoins. Que vous soyez débutant ou pratiquant de yoga expérimenté
+              et beeaucoup d'autres. Chaque cours est conçu pour répondre à vos besoins. Que vous soyez débutant ou pratiquant de yoga expérimenté
             </p>
 <div>
   <Shimmer url={"https://wa.me/message/LAUXD72C7TTHC1"} title={"En savoir plus"} />

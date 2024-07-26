@@ -47,8 +47,8 @@ const Footer = () => {
   };
 
   return (
-    <div className='h-[auto] md:h-screen bg-violet-300 rounded-t-3xl py-[100px] md:px-[50px] px-8'>
-      <div className='md:grid grid-cols-2 md:space-x-3'>
+    <div className='h-[auto] md:h-screen bg-violet-300 rounded-t-3xl  py-[100px] md:px-[50px] px-8'>
+      <div className='md:grid grid-cols-2 md:space-x-3 lg:mx-6 mx-2 2xl:mx-[15%]'>
         <div className="col-span-1 flex flex-col gap-10 mb-8">
           <div>
             <h1 className="lg:text-6xl lg:leading-[4.5rem] text-4xl font-bold max-md:mb-8 text-center md:text-left">Contactez-Nous</h1>
@@ -141,7 +141,7 @@ const Footer = () => {
         {showThankYou && (
           <div className="fixed p-4 top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-gray-800 bg-opacity-75">
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <img className='w-[13%] mb-2' src="./assets/anim5.png" alt="logo"/>
+              <img className='w-[3vw] mb-2' src="./assets/anim5.png" alt="logo"/>
               <h2 className="text-2xl font-bold mb-4">Merci de nous avoir contactés !</h2>
               <p>Nous vous répondrons dès que possible.</p>
               <button

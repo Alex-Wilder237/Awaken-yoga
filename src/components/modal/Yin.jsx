@@ -99,9 +99,11 @@ export default function YinModal() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Décliner
                 </Button>
+                <a href="http://calendly.com/donalddestin11">
                 <Button color="primary" onPress={onClose}>
                 Rejoignez-Nous pour une Séance de Yin Yoga
                 </Button>
+                </a>
               </ModalFooter>
             </>
           )}

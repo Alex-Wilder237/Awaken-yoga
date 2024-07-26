@@ -86,9 +86,11 @@ export default function VinyasaModal() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Decliner
                 </Button>
+                <a href="http://calendly.com/donalddestin11">
                 <Button color="primary" onPress={onClose}>
                 Rejoignez-Nous pour une Séance de Vinyasa Yoga
                 </Button>
+                </a>
               </ModalFooter>
             </>
           )}

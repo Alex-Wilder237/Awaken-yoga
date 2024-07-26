@@ -93,9 +93,11 @@ export default function HathaModal() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Décliner
                 </Button>
-                <Button color="primary" onPress={onClose}>
+                <a href="http://calendly.com/donalddestin11">
+                <Button  color="primary" onPress={onClose}>
                 Rejoignez-Nous pour une Séance de Hatha Yoga
                 </Button>
+                </a>
               </ModalFooter>
             </>
           )}

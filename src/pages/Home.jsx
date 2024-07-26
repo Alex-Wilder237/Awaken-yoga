@@ -201,12 +201,12 @@ const Home = () => {
       </section>
 
       {/* section five-features */}
-      <section className="md:my-[150px] mb-[80px] flex justify-center items-center  md:pl-10 h-fit md:h-[20vh] lg:h-[60vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
+      <section className="md:my-[150px] mb-[80px] flex justify-center items-center  md:pl-10 h-fit md:h-[30vh] lg:h-[60vh] 2xl:h-[40vh] rounded-3xl bg-gradient-to-br from-blue-100  to-blue-400">
 <div className="md:grid grid-cols-2 flex flex-col  justify-center items-center">
 <div className="col-span-1 px-2 py-8">
-<h1 className="md:text-[3.2rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 md:text-left text-center">
+<h1 className="lg:text-[3.2rem] lg:leading-[3.5rem] text-4xl font-bold max-md:mb-8 md:text-left text-center">
 Transformez 
-               <span className="dark:text-white mx-2 text-[2.8rem]  w-fit font-bold md:font-medium md:px-8 md:py-2 md:bg-yellow-200 text-white max-sm:underline  md:text-pink-500 md:rounded-full">votre  vie</span>
+               <span className="dark:text-white mx-2 lg:text-[2.8rem] text-4xl  w-fit font-bold md:font-medium md:px-8 md:py-2 lg:bg-yellow-200 text-white max-sm:underline  lg:text-pink-500 md:rounded-full">votre  vie</span>
                avec le yoga et découvrez une sérénité intérieure inégalée.
             </h1>
                         <div>

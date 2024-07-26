@@ -101,9 +101,11 @@ export default function KundaliniModal() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Décliner
                 </Button>
+                <a href="http://calendly.com/donalddestin11">
                 <Button color="primary" onPress={onClose}>
                 Rejoignez-Nous pour une Séance de Kundalini Yoga
                 </Button>
+                </a>
               </ModalFooter>
             </>
           )}

@@ -9,7 +9,7 @@
 *::after {
   box-sizing: border-box;
   font-family: "Familjen Grotesk", sans-serif;
-  font-size: clamp(14px, 1vw, 16px);
+  font-size: clamp(12px, 16px, 12px);
   scroll-behavior: smooth;
   transition: all ease-in;
 }

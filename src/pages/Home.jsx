@@ -16,7 +16,7 @@ const Home = () => {
       {/* section one-hero-page */}
       <section id="home" className="flex flex-col justify-center items-center h-[auto] ">
         {/* section hero */}
-        <div className="px-4 py-0 lg:px-[5%] flex  w-full rounded-3xl h-fit  overflow-hidden  bg-gradient-to-br from-pink-100  to-violet-400 mt-[20%] lg:mt-[1%]">
+        <div className="px-4 py-0 lg:px-[5%] flex  w-full rounded-3xl h-fit  overflow-hidden  bg-gradient-to-br from-pink-100  to-violet-400  mt-[1%]">
           <div class="flex items-center justify-center w-full h-[50vh] lg:h-[96vh]">
             <div class="relative w-full">
               <div class="absolute inset-0 flex items-center justify-center">
@@ -57,7 +57,7 @@ const Home = () => {
 
       {/* section two-about-page */}
       <section id="a-propos" className="h-fit w-full mt-8 mb-[100px] md:my-[200px] rounded-3xl">
-        <div className="md:grid grid-cols-2 justify-center items-start md:space-x-10">
+        <div className="md:grid grid-cols-2 justify-center items-start md:space-x-4">
           <div className="col-span-1 flex text-center h-full md:text-left flex-col max-md:py-8 px-2">
             <div>
             <div className="flex max-md:justify-center items-center lg:mb-8">
@@ -96,8 +96,8 @@ const Home = () => {
   <Shimmer url={"http://calendly.com/donalddestin11"} title={"Rejoignez Maintenant"} />
 </div>
           </div>
-          <div className="col-span-1 overflow-hidden bg-cover object-cover h-fit">
-          <ImageSkeleton src={'./assets/A-BG.jpg'} styleClass={'bg-contain object-cover w-[100vw] h-[40vh] lg:h-fit rounded-3xl'} alt={'service'}/>
+          <div className="col-span-1 overflow-hidden bg-cover object-cover h-fit flex justify-center md:justify-end">
+          <ImageSkeleton src={'./assets/A-BG.jpg'} styleClass={'rounded-3xl w-full h-fit'} alt={'service'}/>
           </div>
         </div>
       </section>
@@ -109,19 +109,21 @@ const Home = () => {
 
       {/* section three-service-page */}
       <section id="service" className="my-[100px]">
-        <div className="md:grid grid-cols-2 md:space-x-10">
-          <div className="col-span-1 flex flex-col justify-center">
-          <h1 className="md:mb-4 mb-2 dark:text-white mx-auto md:mx-0 lg:text-[1.5rem] md:text-3xl text-lg w-fit font-medium px-8 py-4 bg-green-100 text-gray-400 rounded-full">Nos service</h1>
+        <div className="md:grid grid-cols-2 md:space-x-20 items-start">
+          <div className="col-span-1 flex flex-col items-start justify-center">
+          <h1 className="md:mb-4 mb-2 dark:text-white mx-auto md:hidden md:mx-0 lg:text-[1.5rem] md:text-3xl text-lg w-fit font-medium px-8 py-4 bg-green-100 text-gray-400 rounded-full">Nos service</h1>
             <h1 className="lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-bold max-md:mb-8 md:text-left text-center">
-            Découvrez les
-              <span className="dark:text-white  lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-medium mx-2 text-blue-500 ">Bienfaits</span>
-              du yoga et une clarté mentale améliorée.
+            Découvrez nos
+              <span className="dark:text-white  lg:text-[3.4rem] md:leading-[3.5rem] text-4xl font-medium mx-2 text-blue-500 ">services</span>
+              et les bienfaits du yoga pour votre vie.
             </h1>
-            
+            <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem] lg:mt-8 mt-4">
+            Bienvenue à Awaken Yoga Studio, je suis <span className="font-bold text-lg lg:text-2xl">FOKO DONALD DESTIN</span> votre instructeur principal chez awaken, votre oasis de sérénité dans la ville de Douala.
+            </p>
           </div>
           <div className="col-span-1">
             <p className="text-lg lg:text-2xl text-justify lg:leading-[3rem]">
-            Bienvenue à Awaken Yoga Studio, je suis <span className="font-bold text-lg lg:text-2xl">FOKO DONALD DESTIN</span> votre instructeur principal chez awaken, votre oasis de sérénité dans la ville de Douala. nos cours incluent{" "}
+            nos cours incluent{" "}
               <span className="font-bold text-2xl p-2 rounded-full bg-lime-100">
                 Hatha Yoga
               </span>

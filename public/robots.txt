@@ -1,6 +1,6 @@
-# https://www.aerialyogaexperience.eu/robots.txt
+# https://www.awakenyogacmr.netlify.app/robots.txt
 User-agent: *
 Disallow: /admin/
 Allow: /public/
-Sitemap: https://www.aerialyogaexperience.eu/sitemap.xml
+Sitemap: https://www.awakenyogacmr.netlify.app/sitemap.xml
 

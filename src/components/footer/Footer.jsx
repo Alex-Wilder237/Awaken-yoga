@@ -63,7 +63,7 @@ const Footer = () => {
             <a className='' href="https://www.facebook.com/profile.php?id=61557884797345">
               <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/facebook.png" alt="facebook"/>
             </a>
-            <a className='' href="https://wa.me/qr/7FQWSAE44PB3O1">
+            <a className='' href="https://wa.me/qr/XJRPABUMVD2JI1">
               <img className='flex p-4 bg-white rounded-full object-cover w-[50px] lg:w-[5vw]' src="./assets/whatsapp.png" alt="whatsapp"/>
             </a>
             <p className='text-lg flex lg:text-2xl font-medium justify-center items-center px-8 py-4 bg-white rounded-full'>
